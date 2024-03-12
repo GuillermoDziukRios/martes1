@@ -1,0 +1,104 @@
+.contenedor
+{
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.cua1
+{
+    background-color: blueviolet;
+    width: 200px;
+    height: 600px;
+    margin: 5px;
+    flex-wrap: wrap;
+    display: flex;
+   @media screen and (max-width: 768px;){
+    .cua1 
+    {
+        width: 100px;
+        height: 20px;
+    }
+   }
+}
+.cua2
+{
+    background-color: blueviolet;
+    width: 600px;
+    height: 600px;
+    margin: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+.cua3
+{
+    background-color: blueviolet;
+    width: 200px;
+    height: 600px;
+    margin: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    @media screen and (max-width: 768px;){
+        .cua1 
+        {
+            width: 100%;
+        }
+       }
+}
+.caja1
+{
+    background-color: brown;
+    width: 90px;
+    height: 250px;
+    margin: 4px;
+}
+.caja
+{
+    background-color: green;
+    width: 180px;
+    height: 180px;
+    margin: 9px;
+}
+.fila
+{
+    background-color: yellow;
+    width: 190px;
+    height: 90px;
+    margin: auto;
+    position: relative;
+    bottom: 390px;
+}
+.columna
+{
+    background-color: yellow;
+    width: 90px;
+    height: 190px;
+    margin: 4px;
+    position: relative;
+    top: 110px;
+    display: inline-flex;
+}
+.fila1
+{
+    background-color: yellow;
+    width: 190px;
+    height: 90px;
+    margin: 2px;
+    position: relative;
+    bottom: 190px;
+    left: 2px;
+}
+.columna1
+{
+    background-color: yellow;
+    width: 90px;
+    height: 190px;
+    margin: 4px;
+    position: relative;
+    top: 200px;
+    display: inline-flex;  
+}
